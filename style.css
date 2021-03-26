@@ -1,0 +1,99 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito&display=swap");
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #fd7272;
+  font-family: "Nunito", sans-serif;
+  text-align: center;
+  margin: 0px;
+}
+
+#title {
+  font-size: 25px;
+  color: #f8efba;
+  margin-bottom: 0px;
+}
+
+#description {
+  font-size: 18px;
+  color: #f8efba;
+  margin-top: 5px;
+  margin-bottom: -18px;
+}
+
+form {
+  background-color: #2c3a47;
+  box-shadow: 2px 5px 10px rgba(0, 0, 0, 0.4);
+  border-radius: 10px;
+  color: #f8efba;
+  max-width: 500px;
+  margin: 40px auto;
+  padding: 20px 15px;
+}
+
+.form-control {
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.form-control label {
+  display: block;
+  margin-bottom: 6px;
+  font-size: 17px;
+}
+
+.form-control input,
+.form-control select,
+.form-control textarea {
+  display: block;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-family: inherit;
+  width: 100%;
+  padding: 6px;
+}
+
+option {
+  background-color: #2c3a47;
+  color: #f8efba;
+  font-family: "Nunito", sans-serif;
+}
+
+.radiolabel {
+  width: 100%;
+  display: grid;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+.radiotitle {
+  margin-bottom: 8px;
+  font-size: 18px;
+}
+
+.radiolabel input[type="radio"] {
+  margin: 0px 3px 13px 2px;
+}
+
+.radiolabel input[type="checkbox"] {
+  margin: 0px 3px 10px 2px;
+}
+
+textarea {
+  max-width: 100%;
+}
+
+button {
+  background-color: #fd7272;
+  display: block;
+  border: 1px solid #555;
+  border-radius: 5px;
+  font-family: inherit;
+  width: 100%;
+  padding: 7px;
+  font-size: 15px;
+  color: #f8efba;
+}
